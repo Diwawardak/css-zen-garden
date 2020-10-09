@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    font-family: IBM Plex Mono;
+    text-align: start;
+    font-size: 12px;
+    margin: 1% 10% 0 10%;
+}
+
+a {
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+
+h1 {
+    font-family: Roboto;
+    color: white;
+    text-shadow: 4px 4px #242424;
+    font-size: 40px;
+    padding-top: 10%;
+    text-align: center;
+    position: relative;
+
+}
+
+h2 {
+    font-family: Satisfy;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: gainsboro;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 15px;
+    margin: 1% 10% 0.5% 10%;
+    color: black;
+    
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.zen-intro > .zen-summary {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+[role=banner] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10%;
+    background: url(/img/huntington.png); 
+    object-fit: cover;
+    width: 100%;
+    height: 40vh;
+   
+}
+
+.summary {
+    margin: 2% 0 0 0;
+    position: relative;
+    color: grey;
+}
+  
+.preamble {
+    margin: 2% 0 0 0;
+    position: relative;
+    color: grey;
+}
+
+.explanation {
+    margin: 2% 0% 2% 0%;
+    position: relative;
+    color: grey;
+}
+
+
+.participation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background: url(/img/bamboo.png); 
+    height: 10%;
+    background-color: rgb(124, 156, 125);
+    color: white;
+    
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background: url(/img/bamboo.png);
+    background-color: rgb(124, 156, 125);
+    height: 10%;
+    padding-bottom: 1%;
+    color: white;
+    position: relative;
+}
+
+.requirements {
+    color: grey;
+}
+
+
+.requirements > p > a {
+    font-size: 30px;
+    color: ghostwhite;
+    font-family: Satisfy;
+    
+}
+
+[role=contentinfo] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: rgb(177, 177, 177);
+    background-color: rgb(124, 156, 125);
+    font-size: 15px;
+    padding: 5%;
+    width: 100%;
+    height: 20vh;
+    margin: 3% 20% 0 0;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 5vh;
+    padding: 5% 20% 5% 20%;
+    justify-content: center;
+    background-color: rgb(35, 65, 55);
+}
+
+footer > a > i {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.select {
+    display: none;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: -2% 0 0 -4%;
+}
+
+.design-selection > nav > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Roboto;
+    font-size: 15px;
+    width: 50%;
+    float: left;
+    background-color: rgb(229, 241, 227);
+    text-decoration-line: none;
+    padding: 3%;
+    border-bottom: 2px solid rgb(165, 163, 163);
+}
+
+.design-name {
+    display: flex;
+    font-size: 15px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.design-archives > h3 {
+    display: none;
+}
+
+.design-archives > nav > ul > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Roboto;
+    font-size: 15px;
+    width: 50%;
+    float: left;
+    font-size: 15px;
+    color:gray;
+    padding: 3%;
+    background-color: rgb(229, 241, 227);
+    text-decoration-line: none;
+    border-bottom: 2px solid rgb(165, 163, 163);
+}
+
+.designer-name {
+    color:gray;
+    margin: 1px;
+}
+
+
+.zen-resources > h3 {
+    display: none;
+}
+
+.zen-resources {
+    flex: 1;
+    width: 50%;
+    float: left;
+    background: url(/img/bamboo.png);
+    background-color: rgb(124, 156, 125);
+    height: 25vh;
+    width: 100%;
+    font-family: Roboto;
+    font-size: 15px;
+    padding: 1%;
+}
+
+.zen-resources > ul > li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    width: 50%;
+    float: left;
+    padding: 1%;
+    color: rgb(68, 94, 69);
+
+}
